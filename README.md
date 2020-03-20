@@ -10,12 +10,13 @@ Project can be viewed [here](https://calculator-ee.netlify.com/)
 - More tests - check the display value from the DOM
 - Handle key presses as well as clicks
 - Some key errors not handled e.g. '.' after an operator
-- Some opertions not handled adding and multiplication of negative numbers e.g. 2\*-9
+- Some operations not handled adding and multiplication of negative numbers e.g. 2\*-9
 - Mobile optimised display
 - More operators e.g. %, √
 - Improve button positioning e.g. move all operators to the right
 - Improve button styling e.g. larger '=' and colour operators differently
 - Custom favicon
+- Swap out `calculateResult.tsx` hook logic for 3rd part library or vanilla javascript to fix security issue, make more robust, add new features
 
 ## Available Scripts
 
