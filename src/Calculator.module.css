@@ -1,0 +1,11 @@
+.container {
+  border: solid 5px #1482b8;
+  border-radius: 30px;
+  margin: 20px;
+  background: rgb(23, 149, 212);
+  padding: 15px;
+}
+
+.logo {
+  background-image: url(./logo.svg);
+}

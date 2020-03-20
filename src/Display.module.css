@@ -1,0 +1,18 @@
+.container {
+  color: #fff;
+  font-size: larger;
+  border: solid 2px #fff;
+  text-align: right;
+  padding: 10px;
+  margin: 10px;
+  background-color: #373d45;
+  border-radius: 8px;
+}
+
+.enteredValues {
+  font-size: 50px;
+}
+.result {
+  font-size: 30px;
+  min-height: 40px;
+}
