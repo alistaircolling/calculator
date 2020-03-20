@@ -2,6 +2,8 @@
 
 Test Version number: 04fa1404c2b3b7be0e5909d4ba93d1332bc76e98
 
+Project can be viewed [here](https://calculator-ee.netlify.com/)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Next steps / TODO
