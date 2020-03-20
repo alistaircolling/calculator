@@ -4,8 +4,5 @@
   margin: 20px;
   background: rgb(23, 149, 212);
   padding: 15px;
-}
-
-.logo {
-  background-image: url(./logo.svg);
+  max-width: 1000px;
 }

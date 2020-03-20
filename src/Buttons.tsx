@@ -1,6 +1,7 @@
 import React, { FC } from "react";
 import Button from "./Button";
 import { ButtonConfig } from "./common";
+import styles from './Buttons.module.css'
 
 interface ButtonsProps {
   onButtonPress: Function;
@@ -8,17 +9,20 @@ interface ButtonsProps {
 
 export const Buttons: FC<ButtonsProps> = ({ onButtonPress }) => {
   return (
-    <div>
-      {buttonsConfig.map(button => {
-        return (
-          <Button
-            key={button.value}
-            label={button.label}
-            onPress={onButtonPress}
-            value={button.value}
-          />
-        );
-      })}
+    <div className={styles.container}>
+      <div className={styles.buttonsContainer}>
+        {buttonsConfig.map(button => {
+          return (
+            <Button
+              key={button.value}
+              label={button.label}
+              onPress={onButtonPress}
+              value={button.value}
+            />
+          );
+        })}
+      </div>
+
     </div>
   );
 };
